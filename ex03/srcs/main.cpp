@@ -6,7 +6,7 @@
 /*   By: ajeanne <ajeanne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/25 21:39:32 by ajeanne           #+#    #+#             */
-/*   Updated: 2023/06/26 14:16:46 by ajeanne          ###   ########.fr       */
+/*   Updated: 2023/06/26 14:19:45 by ajeanne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,9 @@ int main( void ) {
 	Point	f(6.1, 3.8);
 	Point	point1(4.1, 8.2);
 	
-	std::cout << "\n/*************\\\n"
+	std::cout << "\n/**************\\\n"
 			  << "|  Triangle 2  |\n"
-			  << "\\*************/\n" << std::endl;
+			  << "\\**************/\n" << std::endl;
 	std::cout << "d : " << d.getX() << "," << d.getY() << std::endl;
 	std::cout << "e : " << e.getX() << "," << e.getY() << std::endl;
 	std::cout << "f : " << f.getX() << "," << f.getY() << std::endl;

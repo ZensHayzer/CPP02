@@ -6,7 +6,7 @@
 /*   By: ajeanne <ajeanne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/26 04:54:55 by ajeanne           #+#    #+#             */
-/*   Updated: 2023/06/26 05:34:31 by ajeanne          ###   ########.fr       */
+/*   Updated: 2023/06/26 14:11:15 by ajeanne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,17 @@ Point::~Point(void)	{
 	
 }
 
-Point	& Point::operator=(Point const & rhs)	{
+float	Point::getX(void) const	{
+	
+	return this->_x.toFloat();
+}
+
+float	Point::getY(void) const	{
+	
+	return this->_y.toFloat();
+}
+
+Point Point::operator=(Point const & rhs)	{
 	Point	newPoint(rhs._x.toFloat(), rhs._y.toFloat());
 	
 	this->~Point();

@@ -6,12 +6,12 @@
 #    By: ajeanne <ajeanne@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/30 20:34:23 by ajeanne           #+#    #+#              #
-#    Updated: 2023/06/26 04:55:39 by ajeanne          ###   ########.fr        #
+#    Updated: 2023/08/23 11:19:15 by ajeanne          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-NAME = canon
+NAME = bsp
 
 SRCS_DIR =	$(shell find srcs -type d)
 INC_DIR =	includes
